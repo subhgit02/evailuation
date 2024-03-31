@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U0pPaOMWXR-t72pP3ftgjHJXWtponYsJrenQMv37s4za-g12WmsVx462srUk-VxD8hYPdllQsMQNwL-5l8gdFfYKkIJN8BXmdRgw8sC~WGGVDhLa-lNqS8gu5wSL9JuBwqlowKRSop5T2-52ouVY7JKQwn60O4ep5ui~Iwzp9oJ9RqAzvCuuSuyaB9WnIVauKab6Wn6She-aR7YM2yGgsdsxI8ew~dKEJTQOlfr1fXJkbEoxsk7F9CTgzobgvxEoOSL-yNdvL7Z8p83kFFDPgMbY4MeP7q6Sq4jetVcjVMyYai6AARWuygeEWX~wAc5j5S9NKUYyLcR1Jlf0Mw4t5w__');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* First Section */
+
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    background-color: #191818;
+    height: 40px;
+    border-radius: 30px;
+    width: 500px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+button{
+    height: 30px;
+    background-color: rgb(190, 6, 6);
+    color: white;
+    font-weight: bold;
+}
+.textcontent{
+    width: 35%;
+    margin-left: 22%;
+    justify-content: center;
+}
+
+/* Second Section */
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    background: #191818;
+    opacity: 0.9;
+}
+
+.text  {
+    width: 30%;
+}
+
+.text h1 {
+    margin-top: 130px;
+    color: red;
+    font-size: 30px;
+}
+.btnn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+
+
+}
+
+.image img{
+    width: 525px;
+    height: 450px;
+
+}
+
+/* Third Section */
+.third-section {
+    padding: 50px 0;
+    margin: 10px;
+}
+
+.card {
+    text-align: center;
+    
+    
+}
+.road{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin:10px;
+    
+}
+
+/* Fourth Section */
+.fourth-section {
+    background-color: #191818;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.faq img {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Fifth Section (Footer) */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content img {
+    width: 50px; /* Adjust size as needed */
+}
